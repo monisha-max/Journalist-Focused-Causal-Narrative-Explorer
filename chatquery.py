@@ -72,7 +72,6 @@ def set_background_color():
 
 set_background_color()
 
-st.title("ClimaBot Tool")
 
 st.sidebar.header("🔗 Enter URLs Here")
 input_urls = [st.sidebar.text_input(f"URL {i+1}") for i in range(3)]
