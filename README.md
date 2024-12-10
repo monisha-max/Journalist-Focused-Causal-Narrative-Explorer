@@ -98,7 +98,8 @@ NewsNavigator is an AI-driven tool designed to assist journalists in efficiently
 
 The attached image represents the interface of NewsNavigator, highlighting its functionality. Journalists can input URLs to extract information, submit queries to receive precise answers with verified sources, and explore related news articles. This visual demonstrates how the tool integrates RAG to streamline research and provide actionable insights, empowering journalists to access and synthesize critical information for their stories quickly.
 
-
+### Acknowledgment
+Portions of the code were refined and improved with the assistance of ChatGPT to ensure quality and efficiency.
 
 
 
