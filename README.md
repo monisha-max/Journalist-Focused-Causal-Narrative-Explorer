@@ -20,6 +20,7 @@ It is the construction and visualization of causal chains from a given dataset, 
 
 The video animation plays through 120 frames at 30 frames per second, effectively demonstrating the step-by-step emergence of causal relationships within the data. The visual representation is designed to highlight key pathways, helping users see not only individual causal links but also how they connect to form larger chains. This visual approach aids in interpreting the data and making informed decisions based on the identified causal structures.
 
+---
 
 # Finalizing the Problem Statement: A Journey Through Literature and Gaps
 
