@@ -81,11 +81,24 @@ This image presents a constructed timeline of events using a climate dataset rel
 [Watch the video](https://github.com/user-attachments/assets/77509f1e-1af6-4674-8b9a-5648503c3a21)
 It constructs and visualises causal chains from a given dataset, showcasing relationships between variables. The code generates a causal graph, with nodes representing entities or events and directed edges indicating causal relationships. This structure helps visualize how one event influences another, making complex causal dependencies easier to understand. The analysis output is a video that illustrates the evolution of these causal chains.
 
-The video animation plays through 120 frames at 30 per second, demonstrating the step-by-step emergence of causal relationships within the data. The visual representation is designed to highlight key pathways, helping users see individual causal links and how they connect to form larger chains. This visual approach aids in interpreting the data and making informed decisions based on the identified causal structures.
+The video animation plays through 120 frames at 30 per second, demonstrating the step-by-step emergence of causal relationships within the data. The visual representation highlights key pathways, helping users see individual causal links and how they connect to form larger chains. This visual approach aids in interpreting the data and making informed decisions based on the identified causal structures.
 
 # NewsNavigator - Guiding journalists to accurate insights.
 
 <img width="603" alt="Screenshot 2024-12-10 at 12 47 05 PM" src="https://github.com/user-attachments/assets/a68d80bb-d9f1-4c1d-bd7d-e419e5fc71b0">
+
+NewsNavigator is an AI-driven tool designed to assist journalists in efficiently gathering, processing, and summarizing information from online sources using RAG (Retrieval-Augmented Generation) techniques. By leveraging RAG, the tool retrieves relevant information from provided URLs or indexed documents and combines it with generative AI to deliver precise, contextually relevant answers to user queries. It also fetches real-time related news articles, making it an invaluable resource for journalists to stay updated and create well-informed reports.
+
+The attached image represents the interface of NewsNavigator, highlighting its functionality. Journalists can input URLs to extract information, submit queries to receive precise answers with verified sources, and explore related news articles. This visual demonstrates how the tool integrates RAG to streamline research and provide actionable insights, empowering journalists to access and synthesize critical information for their stories quickly.
+
+
+
+
+
+
+
+
+
 
 
 
