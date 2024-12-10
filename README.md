@@ -1,36 +1,13 @@
-# Journalist-Focused-Causal-Narrative-Explorer
-
-# Outputs
-
-<img width="1349" alt="Screenshot 2024-12-09 at 9 53 36 PM" src="https://github.com/user-attachments/assets/47ec43d7-d24e-40c9-a376-a162758649af">
-
-This image represents a dynamic causal graph illustrating relationships between events extracted from Reuters news articles. Each node in the graph represents a specific event enriched with its associated sentiment—positive, neutral, or negative—while the edges depict causal connections inferred from the text. The visualization provides a storytelling perspective, showing how one event can lead to or influence another, capturing global events' interconnectedness through natural language processing and network analysis.
-
-
-
-<img width="967" alt="Screenshot 2024-12-09 at 9 54 32 PM" src="https://github.com/user-attachments/assets/21b6ea43-fcbb-4cd1-a004-24c3e1ddaa91">
-
-This image presents a constructed timeline of events using a climate dataset related to disasters and significant environmental milestones. It includes dates and times for various events, highlighting key historical moments, scientific advancements, and climate-related impacts. The timeline serves as a visual representation of data that can be utilized for climate research, disaster analysis, and environmental studies.
-
-
-
-
-[Watch the video](https://github.com/user-attachments/assets/77509f1e-1af6-4674-8b9a-5648503c3a21)
-It is the construction and visualization of causal chains from a given dataset, showcasing relationships between variables. The code generates a causal graph, where nodes represent entities or events and directed edges indicate causal relationships. This structure helps visualize how one event influences another, making complex causal dependencies easier to understand. The output of the analysis is a video that illustrates the evolution of these causal chains.
-
-The video animation plays through 120 frames at 30 frames per second, effectively demonstrating the step-by-step emergence of causal relationships within the data. The visual representation is designed to highlight key pathways, helping users see not only individual causal links but also how they connect to form larger chains. This visual approach aids in interpreting the data and making informed decisions based on the identified causal structures.
-
----
 
 # Finalizing the Problem Statement: A Journey Through Literature and Gaps
 
 ## 1. Introduction
 Event extraction is a critical task in natural language processing (NLP) with applications spanning journalism, crisis management, and decision-making. Extracting events from unstructured text enables organizations to gain insights into trends, relationships, and outcomes in diverse domains like healthcare, finance, and public safety.
 
-Despite advancements, existing methods often struggle with identifying the underlying causality of events — answering the "why" rather than just the "what." This document outlines the journey to refine a problem statement addressing this gap, based on a rigorous review of existing literature and identification of key research gaps.
+Despite advancements, existing methods often struggle to identify the underlying causality of events—answering the "why" rather than just the "what." This document outlines the journey to refine a problem statement addressing this gap based on a rigorous literature review and identifying key research gaps.
 
 ## 2. Initial Problem Statement
-Organizations face challenges analyzing vast amounts of unstructured text, such as news articles and social media. These limitations hinder monitoring trends and making data-driven decisions. Manual event extraction is time-intensive and error-prone, while automated methods are essential for identifying event types, participants, timestamps, and relationships for timely, insightful analysis in finance, healthcare, and public safety.
+Organizations need help analyzing vast amounts of unstructured text, such as news articles and social media. These limitations hinder monitoring trends and making data-driven decisions. Manual event extraction is time-intensive and error-prone, while automated methods are essential for identifying event types, participants, timestamps, and relationships for timely, insightful analysis in finance, healthcare, and public safety.
 
 ## 3. Literature Review
 
@@ -45,8 +22,8 @@ Organizations face challenges analyzing vast amounts of unstructured text, such 
 
 ### Insights Gained from Literature Review
 - **Current Limitations in Event Extraction**
-  - Most systems are effective at identifying “what” happened but fall short of understanding “why” events occur.
-  - Challenges include linking multiple related events across sentences or documents and detecting nuanced event relationships.
+  - Most systems effectively identify “what” happened but fail to understand “why” events occur.
+  - Challenges include linking related events across sentences or documents and detecting nuanced event relationships.
 
 - **Emerging Themes**
   1. **Integration of Causal Reasoning:** Rarely integrated into current systems to understand relationships between events.
@@ -63,7 +40,7 @@ To address the refined problem, the following methodologies are proposed, levera
 
 ### 1. Event Trigger and Argument Extraction
 - Utilize a deep learning framework with pre-trained language models (e.g., BERT or GPT variants) to identify event triggers and extract associated arguments.
-- Leverage fine-tuning techniques to enhance detection of nuanced causal indicators like “caused by” or “led to,” improving recall and precision.
+- Leverage fine-tuning techniques to enhance the detection of nuanced causal indicators like “caused by” or “led to,” improving recall and precision.
 
 ### 2. Temporal Event Linking and Sequencing
 - Implement sequence-based models (e.g., Bi-LSTM or Transformers) to extract temporal relationships between events.
@@ -82,6 +59,34 @@ To address the refined problem, the following methodologies are proposed, levera
 ### 5. Visualization and User Interaction
 - Use visualization libraries (e.g., D3.js, Plotly) to generate interactive causal graphs.
 - Provide dynamic features like zooming, filtering, and node highlighting for better user exploration.
-- Offer narrative views of event chains, enabling storytelling in domains like journalism or crisis reporting.
+- Offer narrative views of event chains, enabling storytelling in journalism or crisis reporting domains.
+
+# Journalist-Focused-Causal-Narrative-Explorer
+
+# Outputs
+
+<img width="1349" alt="Screenshot 2024-12-09 at 9 53 36 PM" src="https://github.com/user-attachments/assets/47ec43d7-d24e-40c9-a376-a162758649af">
+
+This image represents a dynamic causal graph illustrating relationships between events extracted from Reuters news articles. Each node in the graph represents a specific event enriched with its associated sentiment—positive, neutral, or negative—while the edges depict causal connections inferred from the text. The visualization provides a storytelling perspective, showing how one event can lead to or influence another, capturing global events' interconnectedness through natural language processing and network analysis.
+
+
+
+<img width="967" alt="Screenshot 2024-12-09 at 9 54 32 PM" src="https://github.com/user-attachments/assets/21b6ea43-fcbb-4cd1-a004-24c3e1ddaa91">
+
+This image presents a constructed timeline of events using a climate dataset related to disasters and significant environmental milestones. It includes dates and times for various events, highlighting key historical moments, scientific advancements, and climate-related impacts. The timeline serves as a visual representation of data that can be utilized for climate research, disaster analysis, and environmental studies.
+
+
+
+
+[Watch the video](https://github.com/user-attachments/assets/77509f1e-1af6-4674-8b9a-5648503c3a21)
+It constructs and visualises causal chains from a given dataset, showcasing relationships between variables. The code generates a causal graph, with nodes representing entities or events and directed edges indicating causal relationships. This structure helps visualize how one event influences another, making complex causal dependencies easier to understand. The analysis output is a video that illustrates the evolution of these causal chains.
+
+The video animation plays through 120 frames at 30 per second, demonstrating the step-by-step emergence of causal relationships within the data. The visual representation is designed to highlight key pathways, helping users see individual causal links and how they connect to form larger chains. This visual approach aids in interpreting the data and making informed decisions based on the identified causal structures.
+
+# NewsNavigator - Guiding journalists to accurate insights.
+
+<img width="603" alt="Screenshot 2024-12-10 at 12 47 05 PM" src="https://github.com/user-attachments/assets/a68d80bb-d9f1-4c1d-bd7d-e419e5fc71b0">
+
+
 
 
